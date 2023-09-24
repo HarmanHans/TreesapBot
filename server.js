@@ -30,6 +30,7 @@ client.on('message', (channel, tags, message, self) => {
         client.say(channel, res);
     }
     
-	// "Alca: Hello, World!"
-	console.log(`${tags['display-name']}: ${message}`);
+	if (message.toLowerCase().includes("what")) {
+        client.say(channel, "WHAT");
+    }
 });
