@@ -30,7 +30,7 @@ client.on('message', (channel, tags, message, self) => {
         client.say(channel, res);
     }
     
-	if (message.toLowerCase().includes("what")) {
+	if (message.toLowerCase().includes('what')) {
         client.say(channel, "WHAT");
     }
 });
