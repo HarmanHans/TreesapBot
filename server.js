@@ -16,6 +16,7 @@ var gartic = "There is no game at the moment.";
 var discord = "No link at the moment.";
 var whiffs = 10;
 var loveArray = ['',''];
+const list = "!bf, !clip, !commands, !dance, !discord, !gartic, !joke, !love, !whiff"
 
 const commands = {
     bf: {
@@ -23,6 +24,9 @@ const commands = {
     },
     clip: {
         res: () => 'https://www.twitch.tv/lavenderfx/clip/SingleDoubtfulTrout4Head'
+    },
+    commands: {
+        res: () => list
     },
     gartic: {
         res: () => `${gartic}`
